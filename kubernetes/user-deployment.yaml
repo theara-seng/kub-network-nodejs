@@ -18,7 +18,5 @@ spec:
         image: thearaseng/kub-network-demo-user:0.0.3
         env:
           - name: AUTH_ADDRESS
-            value: localhost
-      - name: auth
-        image: thearaseng/kub-network-demo-auth:0.0.1
+            value: "auth-service.default"
 
